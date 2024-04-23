@@ -1,0 +1,38 @@
+.channer__list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 82vh;
+    justify-content: space-between;
+    margin-top: 0;
+    width: 12rem;
+}
+
+.channer__list li {
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.channer__list a {
+    text-decoration: none;
+    color: black; /* Text color */
+    cursor: pointer; 
+    font-weight: bold;
+    font-size: medium;
+}
+
+.channer__list li:hover {
+    background-color: lightgray;
+}
+
+.more__btn {
+    margin-top: auto;
+}
+
+.channel__img {
+    width: 24px; /* Adjust icon width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+}

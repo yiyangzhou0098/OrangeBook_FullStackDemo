@@ -1,0 +1,64 @@
+.feeds__container {
+    height: 45rem;
+    width: 100%;
+    margin-top: 0.1rem;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+
+}
+
+#react-waterfall-grid-comps {
+    list-style: none;
+    padding-left: 0.8rem;
+}
+
+#react-waterfall-grid-comps li>div {
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    padding: 0.4rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+  }
+
+  #react-waterfall-grid-comps li>div:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s
+  }
+  #react-waterfall-grid-comps li>div>img {
+    width: 100%;
+    border-radius: 0.7rem;
+  }
+
+  .feed-user_info {
+    width: 60%; 
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0 0 0.5rem;
+  }
+
+  .feed-info {
+    color: #333;
+    padding: 0.5rem 0 0 0.5rem;
+  }
+
+  .feed-user_avatar {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+  }
+  
+  .feed-username {
+    margin: 0;
+    font-size: 18px;
+    width: 50%;
+    color: gray;
+    font-weight: lighter;
+    font-size: medium;
+    padding-bottom: 0;
+  }

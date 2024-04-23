@@ -1,0 +1,25 @@
+.feed__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.category__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
+}
+
+.category__container div {
+    width: 100%;
+    margin: 0.5rem 1rem 1rem 1rem;
+    font-size:small;
+    font-weight: bold;
+    color: gray;
+}
+
+.category__container div:hover {
+    /* background-color: lightgray; */
+    border-radius: 6px;
+    color: black;
+}
